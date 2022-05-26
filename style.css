@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.card{
+    position: relative;
+    width: 20vw;
+    float: right;
+    height: 70vh;
+}
+
+
+.uprmessage{
+    position: absolute;
+
+    bottom: 60px;
+}
+.uprmessage2{
+    width: 250px;
+}
+.accordion-body li{
+    list-style: none;
+}
+
+.send{
+    position: absolute;
+    display: flex;
+    bottom: 0; 
+    width: 100%; 
+    /* height: 50px; */
+  
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 100px)  {
+    .card{
+        float:inherit;
+        width: 100%;
+    }
+}
